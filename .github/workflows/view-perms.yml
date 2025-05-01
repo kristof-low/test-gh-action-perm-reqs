@@ -1,0 +1,9 @@
+name: View perms
+
+on: workflow_dispatch
+
+jobs:
+    view-perms:
+        runs-on: ubuntu-latest
+        steps:
+            - run: gh auth status
